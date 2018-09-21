@@ -2,7 +2,7 @@ const results = document.querySelector('div#results')
       title = document.querySelector('#title'),
       text =  document.querySelector('#body'),
       issues = document.querySelector('div#issues'),
-      token = 'token '
+      token = 'token 5ad241f70914666536fb0c34ef23ebd6e9d252a8'
       
 function getIssues() {
   title.value = ""
