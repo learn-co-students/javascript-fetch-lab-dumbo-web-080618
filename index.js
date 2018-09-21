@@ -2,7 +2,7 @@ const results = document.querySelector('div#results')
       title = document.querySelector('#title'),
       text =  document.querySelector('#body'),
       issues = document.querySelector('div#issues'),
-      token = 'token 5ad241f70914666536fb0c34ef23ebd6e9d252a8'
+      token = 'token '
       
 function getIssues() {
   title.value = ""
@@ -79,8 +79,6 @@ function forkRepo() {
 }
 
 function getToken() {
-  const token = 'token 5ad241f70914666536fb0c34ef23ebd6e9d252a8'
-  // return `token ${token}`
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
   return ''
